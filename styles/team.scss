@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #000;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    .group{
+        background-color:white;
+        padding: 5px;
+        border-radius: 6px;
+        h1{
+            text-align: center;
+            color:blue;
+        }
+    } 
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            
+            a{
+                text-decoration: none;
+                color: coral;
+                padding: 15px;
+            &:hover{
+                color: white;
+                background-color: gray;
+                border-radius: 15px;
+            }
+        }
+        }
+    }
+    #active{
+        border: 1px solid red;
+        border-radius: 5px;
+        background-color: #6785;
+    }
+h1{
+    color: #fff;
+    text-align: center;
+}
+body{
+    background-color: #22252a;
+    overflow: hidden;
+
+}
+.team{
+    min-height: 100vh;
+    padding: 60px 15px;
+
+    .card{
+        width: 25%;
+        float: left;
+        padding: 0px 15px;
+
+        .box{
+            padding: 15px;
+            background-color: #2d3035;
+            border-radius: 5px;
+            img{
+              width: 150px;
+              display: block;
+              margin: 1px auto; 
+              border-radius: 15px; 
+            }
+            h4{
+                font-size: 20px;
+                margin: 25px 0px 10px;
+                color: #ea5e45;
+                text-align: center;
+            }
+            h5{
+                font-size: 16px;
+                color: #b6b6b6;
+                margin: 0px 0px 10px;
+                text-align: center;
+            }
+            p{
+                color: brown;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+    }
+    .container{
+        max-width: 1140px;
+        margin: auto;
+        position: relative;
+        min-height: 1px;
+    }
+}
